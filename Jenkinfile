@@ -48,6 +48,7 @@ node {
  }
  
  notify ('Success')
+ stage ('Stage to Deploy')
  node {
      notify ("Deploy to staging?")
  }
